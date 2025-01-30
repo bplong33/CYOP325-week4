@@ -1,0 +1,14 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "good_code"
+version = "0.0.1"
+requires-python = ">=3.9"
+dependencies = [
+  "fastapi[standard] >= 0.115.0"
+]
+
+[project.scripts]
+mitigated_app = "app:run"
