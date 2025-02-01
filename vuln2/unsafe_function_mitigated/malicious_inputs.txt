@@ -1,0 +1,2 @@
+__import__('os').system('whoami')
+print('Running Bad Code Here!')
